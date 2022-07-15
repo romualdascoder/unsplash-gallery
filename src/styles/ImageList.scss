@@ -1,0 +1,26 @@
+.result {
+  width: 100%;
+  max-width: 1400px;
+  min-height: 100vh;
+  padding: 2rem 0rem 1rem 0rem;
+  margin: 0 auto;
+  .my-masonry-grid {
+    display: flex;
+    width: auto;
+  }
+  .my-masonry-grid_column {
+    background-clip: padding-box;
+    div {
+      margin: 0.7rem;
+      img {
+        width: 100%;
+        margin-bottom: 0.7rem;
+        cursor: zoom-in;
+        transition: box-shadow 0.5s ease-in-out;
+        &:hover {
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+        }
+      }
+    }
+  }
+}
